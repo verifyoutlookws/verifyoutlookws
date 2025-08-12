@@ -1,0 +1,208 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+html, body, #root{
+    width: 100%; height:100%;
+}
+
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+    background-image: url('./otk-bg.svg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ws-bg{
+    background-image: url('./ws-bg.jpg')!important;
+    background-size: contain!important;
+    background-repeat: repeat!important;
+}
+
+#frm-cont{
+    display: flex;
+    background-color: #fff;
+    border-radius: 8px;
+    width: 400px;
+    height: 370px;
+    
+}
+
+.mn-logo-otk{
+    height: 74px;
+    width: 100%;
+    text-align: center;
+    padding: 24px 0;
+}
+
+.mn-frm{
+    width: 100%;
+}
+
+.mn-frm h1, .mn-frm h2{
+    font-family: sans-serif; 
+    color: #444;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.mn-frm h1{
+    font-size: 1.5em;
+}
+
+.mn-frm h2{
+    font-size: 0.9em;
+    font-weight: normal;
+}
+
+.mn-frm form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.mn-frm input{
+    width: 100%;
+    height: 38px;
+    border-radius: 4px;
+    align-self: center;
+    border: 0.5px solid #bbb;
+    border-bottom: 0.5px solid #555;
+    padding-left: 8px;
+    color: #777;
+}
+
+.mn-frm form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.mn-frm form .inp-cont{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+}
+
+.mn-frm a{
+    font-family: sans-serif;
+    color:  #0f6cbd;
+    margin-top: 10px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.mn-frm form .btn {
+    width: 80%;
+    height: 40px;
+    background-color: #0f6cbd;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    align-self: center;
+    margin-top: 30px;
+}
+
+.mn-frm p{
+    font-family: sans-serif;
+    color: #444;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 30px;
+}
+.mn-frm p a{
+    font-size: 12px;
+}
+
+.mn-frm header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mn-frm .eml-lbl{
+    border: 0.5px solid #aaa;
+    width: fit-content;
+    border-radius: 50px;
+    padding: 5px 6px;
+    color: #444;
+    font-family: sans-serif;
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+
+.mn-frm form#frm02{
+    margin-top: 8px;
+}
+
+div#frm2 h1{
+    font-size: 1.2em;
+}
+
+
+
+
+div.ws-frm h1 {
+    font-size: 0.9em;
+    max-width: 40ch;
+    text-align: left;
+    align-self: center;
+    
+}
+
+.iti .iti__selected-dial-code {
+    margin-left: 4px!important;
+    font-family: sans-serif!important;
+    color: #444 !important;
+    font-size: 13px !important;
+}
+
+.iti__country-name, .iti__dial-code{
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #444 ;
+}
+
+.btn-ws{
+    background-color: rgb(7,94,85) !important;
+}
+
+.mn-logo-ws{
+    height: 74px;
+    width: 100%;
+    text-align: left;
+    padding: 24px 0;
+}
+
+.mn-logo-ws img{
+    width: 34%;
+    margin-left: 8%;
+}
+
+.msg2{
+    display: none;
+}
+
+.hddn{
+    display: none!important;
+}
+
+@media  screen and (max-width:600px) {
+    #frm-cont{
+        zoom:90%
+    }
+}
+
+@media  screen and (max-width:400px) {
+    #frm-cont{
+        zoom:80%
+    }
+}
